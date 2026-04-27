@@ -1,24 +1,20 @@
 # Color Detection using OpenCV
 
 ## Description
-This project detects colors like Red, Blue, and Green in real-time using OpenCV.
+This project detects colors like Red, Blue, and Green in real-time using a webcam.
 
 ## Features
-- Real-time webcam detection
-- Multiple color detection
-- Bounding box with labels
+- Real-time color detection
+- Multiple color tracking
+- Bounding boxes with labels
 
 ## Technologies Used
 - Python
 - OpenCV
 - NumPy
 
-## How to Run
-1. Install required libraries:
-   pip install opencv-python numpy
-
-2. Run the file:
-   python color_tracker.py
+## How it works
+The webcam captures video frames, converts them into HSV format, and applies color ranges to detect specific colors. Contours are used to draw bounding boxes around detected objects.
 
 ## Author
-Shravani
+Shravani Patil
